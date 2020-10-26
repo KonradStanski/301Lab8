@@ -1,0 +1,16 @@
+language: android
+jdk: oracledjk8
+dist: trusty
+
+env:
+  global:
+
+android:
+  components:
+
+  lisences:
+
+before_install:
+  - chmod +x gradlew
+
+before_script:
